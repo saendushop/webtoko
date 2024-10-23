@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1e4; /* Warna beige */
+    color: #333;
+}
+
+header {
+    background-color: #fff; /* Warna putih */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.logo img {
+    width: 100px; /* Ukuran logo */
+    height: auto;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #fff;
+    padding: 15px;
+    border-right: 2px solid #ccc;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    background-color: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.product img {
+    width: 50%; /* Ukuran gambar barang */
+    height: auto;
+}
+
+.product h3 {
+    margin: 10px 0 5px;
+}
+
+.product p {
+    margin: 5px 0;
+}
+
+.description {
+    font-size: 0.9em;
+    color: #555;
+}
+
+button {
+    background-color: #ff8c00; /* Warna button */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e07b00; /* Warna button saat hover */
+}
+
+.orders {
+    margin-top: 20px;
+}
+
+#orderSummary {
+    margin: 10px 0;
+}
+
+#waLink {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #25D366; /* Warna WhatsApp */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#waLink:hover {
+    background-color: #1ebe54; /* Warna saat hover */
+}

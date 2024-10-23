@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Saendu Shop</title>
+
+    <link rel="icon" href="img/WhatsApp Image 2024-10-23 at 20.40.37.jpeg"
+            type="image/x-icon" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/Logo-removebg-preview.png" alt="SAENDU SHOP Logo">
+        </div>
+        <h1>Selamat Datang di SAENDU SHOP</h1>
+        <p>tempat di mana gaya dan kenyamanan berpadu! 🌟 Kami menawarkan koleksi fashion terkini dan aksesori unik yang bikin kamu tampil standout. Dengan pengiriman super cepat dan promo menarik, kamu bisa belanja dengan nyaman tanpa khawatir dompet bolong! Ayo, bergabunglah dengan komunitas kami dan tunjukkan gaya otentikmu! 🛍️✨</p>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="#Produk">Produk</a></li>
+                <li><a href="#pesanan">Pesanan</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="Produk" class="products">
+                <h2>Daftar Produk</h2>
+                <div class="product" id="product1">
+                    <img src="img/susu sgm.jpeg" alt="Product 1">
+                    <h3>SGM Eksplor 1 Plus Complinutri Madu</h3>
+                    <p class="description">Susu pertumbuhan untuk anak usia 1–3 tahun yang membantu melengkapi nutrisi anak.</p>
+                    <p>Harga: Rp 47.000</p>
+                    <button onclick="addToCart('SGM Eksplor 1 Plus Complinutri Madu', 47000)">Tambah ke Keranjang</button>
+                </div>
+                <div class="product" id="product2">
+                    <img src="img/susu.jpeg" alt="Produk 2">
+                    <h3>Susu INDOMILK KOREAN </h3>
+                    <p class="description">susu uht berbagai varian rasa ukuran 180ml.</p>
+                    <p>Harga: Rp 6.000</p>
+                    <button onclick="addToCart('Susu UHT', 6000)">Tambah ke Keranjang</button>
+                </div>
+                <div class="product" id="product3">
+                    <img src="img/pocky.jpeg" alt="Produk 3">
+                    <h3>Pocky</h3>
+                    <p class="description">snack stick biskuit rasa coklat dan strawberry siap mempermanis hari^^.</p>
+                    <p>Harga: Rp 9.000</p>
+                    <button onclick="addToCart('Pocky', 9000)">Tambah ke Keranjang</button>
+                </div>
+                <div class="product" id="product4">
+                    <img src="img/pulpne.jpeg" alt="Produk 4">
+                    <h3>Pulpen</h3>
+                    <p class="description">pulpennya orang keren!.</p>
+                    <p>Harga: Rp 3.500</p>
+                    <button onclick="addToCart('Pulpen', 3500)">Tambah ke Keranjang</button>
+                </div>
+                <div class="product" id="product5">
+                    <img src="img/dompet.jpeg" alt="Produk 5">
+                    <h3>Dompet</h3>
+                    <p class="description">Dompet yang siap menampung uang jajanmu.</p>
+                    <p>Harga: Rp 13.000</p>
+                    <button onclick="addToCart('Dompet', 13000)">Tambah ke Keranjang</button>
+                </div>
+                <div class="product" id="product6">
+                    <img src="img/malkist.jpeg" alt="Produk 6">
+                    <h3>Malkist</h3>
+                    <p class="description">Snack Anti Mainstream, Buat yang Mau Beda!</p>
+                    <p>Harga: Rp 11.000</p>
+                    <button onclick="addToCart('Malkist', 11000)">Tambah ke Keranjang</button>
+                </div>
+                <div class="product" id="product7">
+                    <img src="img/milkita.jpeg" alt="Produk 7">
+                    <h3>Milkita</h3>
+                    <p class="description">Permen Milkita dengan varian rasa akan menemani hari hari mu.</p>
+                    <p>Harga: Rp 10.000</p>
+                    <button onclick="addToCart('Milkita', 10000)">Tambah ke Keranjang</button>
+                </div>
+                <div class="product" id="product8">
+                    <img src="img/SIlver.jpeg" alt="Produk 8">
+                    <h3>Silverqueen 25g</h3>
+                    <p class="description">Gurih medenya, lezat coklatnya. Santai belum lengkap tanpa Silverqueen!</p>
+                    <p>Harga: Rp 10.000</p>
+                    <button onclick="addToCart('Silverqueen 25g', 10000)">Tambah ke Keranjang</button>
+                </div>
+                <div class="product" id="product9">
+                    <img src="img/ciki.jpeg" alt="Produk 9">
+                    <h3>HappyTos </h3>
+                    <p class="description">Khusus kamu yang sedang bosan. Nikmati makanan  ini dengan secangkir teh atau kopi yang akan membuatmu menjadi good mood!</p>
+                    <p>Harga: Rp 15.000</p>
+                    <button onclick="addToCart('HappyTos', 15000)">Tambah ke Keranjang</button>
+                </div>
+                <div class="product" id="product10">
+                    <img src="img/hilo.jpeg" alt="Produk 10">
+                    <h3>Susu HILO</h3>
+                    <p class="description">Rasakan kelezatan Susu yang autentik dan trendi!</p>
+                    <p>Harga: Rp 18.000</p>
+                    <button onclick="addToCart('Hilo 12pcs ', 18000)">Tambah ke Keranjang</button>
+            </section>
+            <section id="pesanan" class="orders">
+                <h2>Pesanan</h2>
+                <div id="orderSummary"></div>
+                <a id="waLink" href="#" target="_blank">Konfirmasi Pesanan via WhatsApp</a>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        let cart = [];
+
+        function addToCart(name, price) {
+            cart.push({ name, price });
+            updateOrderSummary();
+        }
+
+        function updateOrderSummary() {
+            const orderSummary = document.getElementById('orderSummary');
+            orderSummary.innerHTML = '';
+
+            cart.forEach(item => {
+                const div = document.createElement('div');
+                div.textContent = `${item.name} - Rp ${item.price}`;
+                orderSummary.appendChild(div);
+            });
+
+            const totalPrice = cart.reduce((total, item) => total + item.price, 0);
+            const waLink = document.getElementById('waLink');
+            waLink.href = `https://wa.me/+6285872054900?text=Pesanan%20total%20Rp%20$${totalPrice}`;
+        }
+    </script>
+</body>
+</html>
