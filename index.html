@@ -46,8 +46,8 @@
                     <img src="img/pocky.jpeg" alt="Produk 3">
                     <h3>Pocky</h3>
                     <p class="description">snack stick biskuit rasa coklat dan strawberry siap mempermanis hari^^.</p>
-                    <p>Harga: Rp 9.000</p>
-                    <button onclick="addToCart('Pocky', 9000)">Tambah ke Keranjang</button>
+                    <p>Harga: Rp 5.000</p>
+                    <button onclick="addToCart('Pocky', 5000)">Tambah ke Keranjang</button>
                 </div>
                 <div class="product" id="product4">
                     <img src="img/pulpne.jpeg" alt="Produk 4">
@@ -126,7 +126,7 @@
 
             const totalPrice = cart.reduce((total, item) => total + item.price, 0);
             const waLink = document.getElementById('waLink');
-            waLink.href = `https://wa.me/+6285872054900?text=Pesanan%20total%20Rp%20$${totalPrice}`;
+            waLink.href = `https://wa.me/+6285872054900?text=Pesanan%20total%20Rp%20${totalPrice}`;
         }
     </script>
 </body>
